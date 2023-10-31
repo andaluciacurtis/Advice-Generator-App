@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  
+}
+
+html, body {
+  height: 100vh;
+}
+
+.outer-container {
+  height: 100%;
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: red;
+}
