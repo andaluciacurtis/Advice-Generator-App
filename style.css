@@ -55,6 +55,7 @@ main {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  position: relative;
 }
 
 .button-container {
@@ -66,7 +67,7 @@ main {
   justify-content: center;
 
   position: absolute;
-  margin-top: 150px;
+  bottom: -30px;
 }
 
 .divider-bar {
