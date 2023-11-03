@@ -15,6 +15,8 @@
 html, body {
   height: 100vh;
   font-family: 'Manrope', sans-serif;
+  
+  background-color: var(--dark-blue);
 }
 
 /* BASIC STYLING */
@@ -40,13 +42,11 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  background-color: var(--dark-blue);
 }
 
 main {
   background-color: var(--dark-grayish-blue);
-  width: 480px;
+  width: min(480px, 90%);
   padding: 30px;
   border-radius: 20px;
   gap: 20px;
